@@ -1,0 +1,31 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#input,
+.resultContainer {
+	flex: 1;
+	font-family: inherit;
+}
+
+#input {
+	text-align: center;
+	font-size: 15vw;
+	border: 0;
+	-webkit-apperance: none;
+	color: #282c34;
+}
+
+.resultContainer {
+	background: #282c34;
+	text-align: center;
+	color: #fff;
+	font-size: 15vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
